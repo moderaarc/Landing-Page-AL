@@ -46,9 +46,14 @@ nav a.active {
 }
 
 .hero img {
-    width: 300px;
-    border-radius: 10px;
-    margin-right: 30px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0077b6;
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+    display: block;
+    margin: 0 auto;
 }
 
 .intro h1 {
@@ -306,3 +311,4 @@ button:hover {
     background-color: #1e40af;
     transition: 0.3s;
 }
+
