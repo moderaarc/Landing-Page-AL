@@ -44,12 +44,21 @@ nav a.active {
     color: #38bdf8;
 }
 
-.hero {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #e2e8f0;
-    padding: 40px;
+.hero img {
+    width: 280px;
+    height: 280px;
+    border-radius: 15px; /* bordas levemente arredondadas */
+    object-fit: cover;
+    border: 3px solid var(--vermelho-principal);
+    box-shadow: 0 0 20px rgba(193, 18, 31, 0.3);
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(193, 18, 31, 0.5);
 }
 
 .hero img {
@@ -318,5 +327,6 @@ button:hover {
     background-color: #1e40af;
     transition: 0.3s;
 }
+
 
 
