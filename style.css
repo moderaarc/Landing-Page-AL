@@ -1,3 +1,10 @@
+:root {
+  --vermelho-principal: #c1121f;   /* tom Ferrari */
+  --vermelho-escuro: #780000;
+  --preto: #1a1a1a;
+  --cinza-claro: #f5f5f5;
+  --branco: #ffffff;
+}
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
@@ -311,4 +318,5 @@ button:hover {
     background-color: #1e40af;
     transition: 0.3s;
 }
+
 
