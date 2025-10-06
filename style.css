@@ -14,23 +14,28 @@ body {
 }
 
 header {
-    background-color: #111827;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
+  background-color: var(--preto);
+  color: var(--branco);
+  padding: 20px 0;
 }
 
-.logo {
-    font-weight: bold;
-    font-size: 1.3em;
+header .logo {
+  font-size: 1.5rem;
+  color: var(--vermelho-principal);
+  font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+header nav ul li a {
+  color: var(--branco);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: var(--vermelho-principal);
+}
+
 }
 
 nav a {
@@ -327,6 +332,7 @@ button:hover {
     background-color: #1e40af;
     transition: 0.3s;
 }
+
 
 
 
