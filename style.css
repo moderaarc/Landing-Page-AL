@@ -309,25 +309,6 @@ footer {
     font-size: 0.8rem;
   }
 
-
-   /* ======== FOTO DO GITHUB ======== */
-.foto-github {
-    width: 180px;
-    height: 180px;
-    border-radius: 15px;
-    object-fit: cover;
-    border: 3px solid var(--vermelho-principal);
-    box-shadow: 0 0 20px rgba(193, 18, 31, 0.3);
-    display: block;
-    margin: 20px auto;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.foto-github:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(193, 18, 31, 0.5);
-}
-
 /* ======== LOGO DO GITHUB ======== */
 .logo-github {
     width: 150px;
@@ -346,4 +327,3 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 0 25px rgba(193, 18, 31, 0.5);
 }
-
