@@ -313,9 +313,10 @@ footer {
 .logo-github {
     width: 150px;
     height: 150px;
-    border-radius: 15px; 
-    background-color: var(--branco);
-    object-fit: cover;
+    border-radius: 50%; /* deixa redondinho */
+    background-color: transparent; /* remove o fundo branco */
+    object-fit: contain; /* garante que o logo não estique */
+    padding: 10px;
     border: 3px solid var(--vermelho-principal);
     box-shadow: 0 0 20px rgba(193, 18, 31, 0.3);
     display: block;
@@ -324,6 +325,8 @@ footer {
 }
 
 .logo-github:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
     box-shadow: 0 0 25px rgba(193, 18, 31, 0.5);
+    background-color: rgba(193, 18, 31, 0.05); /* leve brilho Ferrari */
 }
+
