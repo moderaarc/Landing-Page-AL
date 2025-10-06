@@ -3,71 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>modera.arc - Landing Page Pessoal</title>
+    <title>Arthur Lacerda - Página Pessoal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">modera.arc</div>
+    <header id="topo">
+        <div class="logo">Arthur Lacerda</div>
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="sobre.html">Currículo</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
                 <li><a href="contato.html">Contato</a></li>
+                <li><a href="github.html">GitHub</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546" alt="Foto do aluno">
+        <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546" alt="Foto de Arthur Lacerda">
         <div class="intro">
-            <h1>Olá! Eu sou modera.arc 👋</h1>
-            <p>Estudante de <strong>Sistemas da Informação</strong> apaixonado por tecnologia e inovação.  
-            Busco transformar ideias em código e criar experiências digitais marcantes.</p>
+            <h1>Olá! Eu sou Arthur Lacerda 👋</h1>
+            <p>Estudante de <strong>Sistemas da Informação</strong>, apaixonado por tecnologia e desenvolvimento web.  
+            Busco transformar ideias em projetos reais com propósito e design moderno.</p>
         </div>
     </section>
 
-    <section class="historia">
+    <section id="historia" class="historia">
         <h2>Minha História</h2>
-        <p>Nasci em 2003 em Curitiba-PR e desde cedo sempre fui curioso sobre como a tecnologia muda o mundo.  
-        No ensino médio, criei meu primeiro site simples e percebi que programar era meu caminho.  
-        Hoje estudo <strong>Sistemas da Informação</strong> e sonho em trabalhar com <strong>desenvolvimento web e IA</strong>.</p>
+        <p>Nasci em 2003 em Curitiba-PR e sempre fui curioso sobre como a tecnologia muda o mundo.  
+        No ensino médio, criei meu primeiro site e percebi que programar era o que eu queria fazer.  
+        Hoje estudo <strong>Sistemas da Informação</strong> e sonho em trabalhar com <strong>desenvolvimento web e inteligência artificial</strong>.</p>
     </section>
 
-    <section class="habilidades">
+    <section id="habilidades" class="habilidades">
         <h2>Minhas Habilidades</h2>
         <ul>
             <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
             <li>Banco de Dados (PostgreSQL e Supabase)</li>
             <li>Design Responsivo e UX/UI</li>
             <li>Versionamento com GitHub</li>
-            <li>Montagem de landing pages e portfólios</li>
+            <li>Criação de Landing Pages e Portfólios</li>
         </ul>
     </section>
 
     <section class="hobbies">
         <h2>Hobbies e Preferências</h2>
-        <p>Nos meus momentos livres gosto de jogar futebol com amigos, ouvir rock alternativo e assistir séries de ficção científica.  
+        <p>Nos meus momentos livres gosto de jogar futebol, ouvir música e assistir séries de ficção científica.  
         Sou torcedor do <strong>Atlético Paranaense</strong> e fã de bandas como Imagine Dragons e Arctic Monkeys.</p>
         <div class="midia">
             <iframe width="300" height="170" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Música favorita"></iframe>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio HTML5.
+            </audio>
         </div>
     </section>
 
-    <section class="academico">
+    <section id="academico" class="academico">
         <h2>Minha Vida Acadêmica</h2>
         <table>
             <thead>
                 <tr><th>Nível</th><th>Instituição</th><th>Período</th></tr>
             </thead>
             <tbody>
-                <tr><td>Fundamental 1 e 2</td><td>Colégio São Gabriel</td><td>2009 – 2017</td></tr>
+                <tr><td>Fundamental</td><td>Colégio São Gabriel</td><td>2009 – 2017</td></tr>
                 <tr><td>Ensino Médio</td><td>Colégio Estadual Professor Bento Munhoz</td><td>2018 – 2020</td></tr>
-                <tr><td>Faculdade</td><td>Universidade Tecnológica do Paraná (UTFPR)</td><td>2023 – atual</td></tr>
+                <tr><td>Faculdade</td><td>Universidade Tecnológica Federal do Paraná (UTFPR)</td><td>2023 – atual</td></tr>
             </tbody>
         </table>
-        <p>Meu objetivo é seguir carreira como <strong>desenvolvedor full stack</strong> e futuramente criar minha própria startup de tecnologia.</p>
     </section>
 
     <section class="eventos">
@@ -77,32 +81,20 @@
                 <tr><th>Ano</th><th>Evento</th><th>Descrição</th></tr>
             </thead>
             <tbody>
-                <tr><td>2023</td><td>Semana Acadêmica de Tecnologia</td><td>Apresentei um projeto de automação de tarefas em Python.</td></tr>
-                <tr><td>2024</td><td>Feira de Inovação Digital</td><td>Desenvolvi um site para gerenciamento de estoque em tempo real.</td></tr>
+                <tr><td>2023</td><td>Semana Acadêmica de Tecnologia</td><td>Apresentei um projeto de automação em Python.</td></tr>
+                <tr><td>2024</td><td>Feira de Inovação Digital</td><td>Desenvolvi um site de gestão de estoque e vendas em tempo real.</td></tr>
             </tbody>
         </table>
     </section>
 
-    <section class="materias">
-        <h2>Matérias Atuais</h2>
-        <table>
-            <thead><tr><th>Disciplina</th><th>Resumo</th></tr></thead>
-            <tbody>
-                <tr><td>Lógica da Computação</td><td>Estudo de proposições, conectivos e tabelas-verdade.</td></tr>
-                <tr><td>Programação Web</td><td>Construção de sites com HTML, CSS e integração com banco de dados.</td></tr>
-                <tr><td>Pensamento Computacional</td><td>Aplicação de raciocínio lógico e decomposição de problemas.</td></tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section class="futuro">
+    <section id="futuro" class="futuro">
         <h2>Planos Futuros</h2>
-        <p>Quero trabalhar com desenvolvimento web e inteligência artificial, contribuindo para soluções que tornem empresas mais eficientes.  
-        Também planejo continuar estudando e, quem sabe, me tornar professor na área de tecnologia.</p>
+        <p>Quero trabalhar com desenvolvimento full stack e IA, ajudando empresas a automatizarem processos e melhorarem seus resultados.  
+        Também pretendo criar minha própria startup voltada à tecnologia educacional.</p>
     </section>
 
     <footer>
-        <p>© 2025 modera.arc | Desenvolvido como projeto acadêmico</p>
+        <p>© 2025 Arthur Lacerda | Projeto acadêmico desenvolvido para faculdade</p>
     </footer>
 </body>
 </html>
