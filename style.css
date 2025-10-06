@@ -326,4 +326,127 @@ footer {
     background-color: rgba(193, 18, 31, 0.05); 
 }
 
+.github {
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+    background-color: #fafafa;
+}
+
+.github h2 {
+    color: var(--vermelho-principal);
+    margin-top: 15px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--vermelho-principal);
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.github p {
+    color: #333;
+    max-width: 600px;
+    margin: 10px auto 20px auto;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Logo do GitHub */
+.logo-github {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* forma circular */
+    background-color: transparent; /* remove o fundo branco */
+    object-fit: contain;
+    padding: 10px;
+    border: 3px solid var(--vermelho-principal);
+    box-shadow: 0 0 20px rgba(193, 18, 31, 0.3);
+    display: block;
+    margin: 0 auto 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.logo-github:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(193, 18, 31, 0.5);
+    background-color: rgba(193, 18, 31, 0.05);
+}
+
+/* Cards da seção de repositórios */
+.repositorios {
+    padding: 40px 20px;
+    background-color: var(--cinza-claro);
+}
+
+.repositorios h2 {
+    text-align: center;
+    color: var(--vermelho-principal);
+    border-bottom: 2px solid var(--vermelho-principal);
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: var(--branco);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(193, 18, 31, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(193, 18, 31, 0.35);
+}
+
+.card h3 {
+    color: var(--vermelho-principal);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--vermelho-principal);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-github {
+        width: 120px;
+        height: 120px;
+    }
+
+    .github h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
 
